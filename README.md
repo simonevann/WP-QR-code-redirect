@@ -14,6 +14,8 @@ Esempio:            /orari-apertura/ ; de ; https://miosito.com/de/oeffnungszeit
 
 Per attivare il plugin nel frontend è necessario che il link in ingresso porti con se l'attributo ?qr-code=true, questo per evitare che ad ogni visita venga caricato il server di lavoro inutile.
 
+Esempio:            https://miosito.com/orari-apertura?qr-code=true
+
 ## To Do
 Per ora il plugin è molto basico e funziona solamente con le lingua IT,FR,DE e EN. I prossimi passi che mi piacerebbe intraprendere saranno:
 - Rendere configurabile il supporto alle lingue
