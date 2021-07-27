@@ -1,7 +1,7 @@
 # WP-QR-code-redirect
 Plugin Wordpress che permette di redirezionare il traffico proveniente da un link (solitamente QR code) verso la lingua adeguata 
 ## Intro
-Questo plugin nasce dell'esigenza di un cliente che aveva la necessità di utilizzare dei QR code su cartellonistica esterna e i visitatori di tale località parlano diverse lingue.
+Questo plugin nasce dell'esigenza di un cliente di utilizzare dei QR code su cartellonistica esterna e stampati. I visitatori di tale località parlano diverse lingue.
 Per evitare la creazione di una quantità enorme di QR code per ogni idioma, si è pensato di creare un automtismo per smistare il traffico verso la lingua corretta, mantenedo al contempo un solo QR code per tutti.
 
 Su WordPress i plugin multilingua (Es. WPML o Polylang) permettono già di smistare il traffico secondo la lingua, ma solo una prima volta. Se il visitatore scansiona altri QR code, il plugin lo interpreta come un cambio di lingua e l'utente atterrerà su una pagina in un idoma diverso dal suo.
