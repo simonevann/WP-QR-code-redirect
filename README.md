@@ -7,15 +7,15 @@ Per evitare la creazione di una quantità enorme di QR code per ogni idioma, si 
 Su WordPress i plugin multilingua (Es. WPML o Polylang) permettono già di smistare il traffico secondo la lingua, ma solo una prima volta. Se il visitatore scansiona altri QR code, il plugin lo interpreta come un cambio di lingua e l'utente atterrerà su una pagina in un idoma diverso dal suo.
 
 ## Il plugin
-Questo plugin essenzialmente prende in carico dal backend un file CSV, dove sono elencate le associazioni tra link in entrata, lingua e landing corrisondente.
-
-Formato file .csv:  link in ingresso ; sigla della lingua ISO 639-2 Alpha 2 ; url in uscita
-Esempio:            /orari-apertura/ ; de ; https://miosito.com/de/oeffnungszeiten
-
-Per attivare il plugin nel frontend è necessario che il link in ingresso porti con se l'attributo ?qr-code=true, questo per evitare che ad ogni visita venga caricato il server di lavoro inutile.
-
-Esempio:            https://miosito.com/orari-apertura?qr-code=true
-
+Questo plugin essenzialmente prende in carico dal backend un file CSV, dove sono elencate le associazioni tra link in entrata, lingua e landing corrisondente.<br>
+<br>
+Formato file .csv:  link in ingresso ; sigla della lingua ISO 639-2 Alpha 2 ; url in uscita<br>
+Esempio:            /orari-apertura/ ; de ; https://miosito.com/de/oeffnungszeiten<br>
+<br>
+Per attivare il plugin nel frontend è necessario che il link in ingresso porti con se l'attributo ?qr-code=true, questo per evitare che ad ogni visita venga caricato il server di lavoro inutile.<br>
+<br>
+Esempio:            https://miosito.com/orari-apertura?qr-code=true<br>
+<br>
 ## To Do
 Per ora il plugin è molto basico e funziona solamente con le lingua IT,FR,DE e EN. I prossimi passi che mi piacerebbe intraprendere saranno:
 - Rendere configurabile il supporto alle lingue
